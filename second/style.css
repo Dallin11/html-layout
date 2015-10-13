@@ -1,0 +1,40 @@
+html, body, section.bars{
+	height: 100%;
+	width: 100%;
+}
+
+div.bar{
+	display: inline-block;
+	width: 33.3333333%;
+	height: 100%;
+	float: left;
+}
+div.bar-1{
+	background: #4A90E2;
+}
+div.bar-2{
+	background: #50E3C2;
+}
+div.bar-3{
+	background: #B8E986;
+	position: relative;
+}
+div.img-box{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background: #D0021B;
+	text-align: center;
+}
+p{
+	position: relative;
+	color: white;
+	font-size: 30px;
+	top: 40%;
+}
+
+
+
+
+
